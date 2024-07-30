@@ -1,2 +1,2 @@
-# SugarCaneIRC
-A terminal-based IRC client 0% BS, 100% user friendliness
+# Sugarcane IRC
+A terminal-based IRC client with user-friendliness.

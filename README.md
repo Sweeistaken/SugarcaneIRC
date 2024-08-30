@@ -1,9 +1,10 @@
 # Sugarcane IRC
-A terminal-based IRC client with user-friendliness.
+A TUI-based IRC client written in python with user friendliness, also has a GUI version like Links2.  
+The idea is to make a TUI client that has aspects of a GUI one.
 
 # Requirements
 
-* [IRC Python module](https://pypi.org/project/irc)
+* [IRC module](https://pypi.org/project/irc)
 
 ## GUI requirements
 * [Pygame](https://pypi.org/project/pygame)

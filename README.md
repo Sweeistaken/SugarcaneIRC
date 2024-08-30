@@ -8,4 +8,4 @@ The idea is to make a TUI client that has aspects of a GUI one.
 
 ## GUI requirements
 * [Pygame](https://pypi.org/project/pygame)
-* [TKinter](https://pypi.org/project/tk)
+* TKinter

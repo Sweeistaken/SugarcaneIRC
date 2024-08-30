@@ -9,11 +9,17 @@ print("""
 
 """)
 from time import sleep
-import sys
-import curses
-import threading
-import irc.client
 sleep(1)
+print("Importing sys...")
+import sys
+print("Importing curses...")
+import curses
+print("Importing threading...")
+import threading
+print("Importing irc.client...")
+import irc.client
+
+print("Modules imported!")
 stdscr = curses.initscr()
 curses.noecho()
 if not curses.has_colors():

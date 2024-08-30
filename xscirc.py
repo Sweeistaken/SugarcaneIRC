@@ -15,6 +15,7 @@ import os
 import pygame
 from tkinter import messagebox as mb
 import threading
+import irc.client
 pygame.init()
 if not pygame.get_init():
   mb.showerror("Error", "Couldn't load all pygame modules!")

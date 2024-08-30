@@ -12,6 +12,7 @@ from time import sleep
 import sys
 import curses
 import threading
+import irc.client
 sleep(1)
 stdscr = curses.initscr()
 curses.noecho()

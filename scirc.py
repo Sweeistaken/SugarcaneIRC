@@ -18,12 +18,12 @@ print("Importing threading...")
 import threading
 print("Importing irc.client...")
 import irc.client
-
 print("Modules imported!")
 stdscr = curses.initscr()
 curses.noecho()
 if not curses.has_colors():
-    raise SystemError("Your terminal doesn't support color!")
+    print("Your terminal doesn't support color.")
+    sys.exit(1)
 rows, cols = stdscr.getmaxyx()
 curses.start_color()
 curses.init_pair(1, curses.COLOR_WHITE, curses.COLOR_BLUE)

@@ -19,6 +19,7 @@ import threading
 print("Importing irc.client...")
 import irc.client
 print("Modules imported!")
+print("Initializing curses...")
 stdscr = curses.initscr()
 curses.noecho()
 if not curses.has_colors():
@@ -39,5 +40,6 @@ stdscr.addstr("ing")
 stdscr.attroff(curses.color_pair(2))
 stdscr.refresh()
 sleep(3)
+print("Ending curses session...")
 curses.endwin()
 print("Exited successfully")

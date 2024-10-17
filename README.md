@@ -5,7 +5,3 @@ The idea is to make a TUI client that has aspects of a GUI one.
 # Requirements
 
 * [Sugarcane Parse IRC](https://github.com/sweeistaken/SugarcaneParseIRC)
-
-## GUI requirements
-* [Pygame](https://pypi.org/project/pygame)
-* TKinter

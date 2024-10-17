@@ -14,8 +14,8 @@ print("Importing tkinter...")
 from tkinter import messagebox as mb
 print("Importing threading...")
 import threading
-print("Importing irc.client...")
-import irc.client
+print("Importing SugarCaneParse IRC...")
+import scparseirc
 print("Initializing PyGame...")
 pygame.init()
 if not pygame.get_init():

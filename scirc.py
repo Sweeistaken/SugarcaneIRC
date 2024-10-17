@@ -11,8 +11,8 @@ print("Importing curses...")
 import curses
 print("Importing threading...")
 import threading
-print("Importing irc.client...")
-import irc.client
+print("Importing SugarCaneParse IRC...")
+import scparseirc
 print("Modules imported!")
 print("Initializing curses...")
 stdscr = curses.initscr()
